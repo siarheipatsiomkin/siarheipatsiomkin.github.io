@@ -29,9 +29,7 @@ header {
 header h1 {
   font-family: 'DM Serif Display', serif;
 }
-main {
-  font-family: 'Roboto', sans-serif;
-}
+
 /* Style rules for navigation area */
 nav {
   background-color: #373684;
@@ -109,13 +107,8 @@ main p {
   display: block;
 }
 
-#contact .email-link {
-  color: #4645a8;
-  text-decoration: none;
-  font-weight: bold;
-}
 
-#contact a {
+#contact .email-link {
   color: #4645a8;
   text-decoration: none;
   font-weight: bold;
@@ -140,7 +133,7 @@ footer a {
 /* Style rules for mobile viewport */
 
 
-/*Hide tab-desk class* */
+/*Hide tab-desk class */
 .tab-desk {
   display: none;
 }
