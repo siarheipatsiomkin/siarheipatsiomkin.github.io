@@ -20,6 +20,7 @@ main, header, footer {
   margin: 0 auto;
   padding: 2rem;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 
 /* Top Navigation Bar */
 .navbar {
@@ -46,7 +47,7 @@ main, header, footer {
 
 /* Main content centered */
 main {
-  flex: 1; /* Fills available space, pushes footer down */
+  flex: 1;
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -59,7 +60,17 @@ main section {
   width: 100%;
 }
 
-/* Footer: full width, bottom aligned */
+/* Footer: sticky, full width, solid black */
+footer {
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+  background-color: #000; /* Solid black */
+  color: #fff;
+  padding: 15px 20px;
+  box-sizing: border-box;
+}
+
 /* Footer layout */
 .footer-container {
   display: flex;
@@ -114,4 +125,3 @@ main section {
 body *:not(header):not(header *):not(footer):not(footer *) {
   color: #000 !important;
 }
-
