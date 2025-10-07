@@ -6,19 +6,19 @@ html, body {
 }
 
 body {
-  background-color: #ffffff; /* pure white */
-  color: #333333; /* dark gray for readable text */
+  background-color: #000000; /* pure white */
+  color: #ffffff; /* dark gray for readable text */
   font-family: 'Playfair Display', serif;
-  line-height: 1.6;
+  line-height: 1.7;
   margin: 0;
   padding: 0;
 }
 
 main, header, footer {
   background: rgba(255, 255, 255, 0.9);
-  max-width: 1000px;
+  max-width: 1200px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 0;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
