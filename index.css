@@ -123,14 +123,14 @@ body *:not(header):not(header *):not(footer):not(footer *) {
 }
 
 .side-image {
-  position: fixed;             /* stays in same place on scroll */
-  right: 30px;                 /* space from right edge */
-  top: 50%;                    /* center vertically */
-  transform: translateY(-50%); /* true vertical centering */
-  width: 90px;                 /* smaller square */
-  height: 90px;
-  object-fit: cover;           /* keeps image ratio clean */
-  border-radius: 10px;         /* soft corners */
-  box-shadow: 0 2px 8px rgba(0,0,0,0.25); /* subtle shadow */
-  z-index: 1000;               /* ensure it stays above content */
+  position: fixed;             
+  right: 60px;                 /* move a bit farther from text */
+  top: 50%;                    
+  transform: translateY(-50%);
+  width: 180px;                /* slightly larger */
+  height: 180px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.25);
+  z-index: 1000;
 }
