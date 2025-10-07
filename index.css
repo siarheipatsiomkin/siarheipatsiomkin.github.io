@@ -9,9 +9,9 @@ body {
   background-color: #000000; /* pure white */
   color: #ffffff; /* dark gray for readable text */
   font-family: 'Playfair Display', serif;
-  line-height: 1.7;
+  line-height: 1.6;
   margin: 0;
-  padding: 0;
+  padding: 2rem;
 }
 
 main, header, footer {
