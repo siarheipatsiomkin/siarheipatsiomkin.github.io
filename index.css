@@ -6,20 +6,14 @@ html, body {
 }
 
 body {
-  background-color: #ffffff; /* pure white */
-  color: #ffffff; /* dark gray for readable text */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
   font-family: 'Playfair Display', serif;
-  line-height: 1.6;
-  margin: 0;
-  padding: 2rem;
-}
-
-main, header, footer {
-  background: rgba(255, 255, 255, 0.9);
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background: #222;
+  background-size: cover;
+  background-color: transparent;
+  color: #fff; /* Default text color */
 }
 
 /* Top Navigation Bar */
