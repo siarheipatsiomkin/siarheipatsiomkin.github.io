@@ -10,20 +10,16 @@ body {
   color: #333333; /* dark gray for readable text */
   font-family: 'Playfair Display', serif;
   line-height: 1.6;
-
-  /* Keeps footer at bottom */
-  display: flex;
-  flex-direction: column;
+  margin: 0;
+  padding: 0;
 }
 
-/* Header, Main, Footer style blocks */
 main, header, footer {
   background: rgba(255, 255, 255, 0.9);
   max-width: 1000px;
   margin: 0 auto;
   padding: 2rem;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
 
 /* Top Navigation Bar */
 .navbar {
