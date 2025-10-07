@@ -6,8 +6,10 @@ html, body {
 }
 
 body {
-  background-color: #ffffff; /* pure white */
-  color: #333333; /* dark gray for readable text */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
   font-family: 'Playfair Display', serif;
   line-height: 1.6;
   margin: 0;
