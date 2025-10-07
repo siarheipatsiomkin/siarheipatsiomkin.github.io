@@ -124,11 +124,11 @@ body *:not(header):not(header *):not(footer):not(footer *) {
 
 .side-image {
   position: fixed;             
-  right: 60px;                 /* move a bit farther from text */
+  right: 70px;                 /* move a bit farther from text */
   top: 50%;                    
   transform: translateY(-50%);
-  width: 180px;                /* slightly larger */
-  height: 180px;
+  width: 240px;                /* slightly larger */
+  height: 240px;
   object-fit: cover;
   border-radius: 12px;
   box-shadow: 0 3px 12px rgba(0, 0, 0, 0.25);
