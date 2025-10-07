@@ -49,6 +49,17 @@ main {
   text-align: center;
 }
 
+.side-image {
+  position: fixed;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: auto;
+  object-fit: cover;
+  z-index: -1; /* keeps it behind everything */
+  opacity: 0.85; /* optional: makes it slightly transparent */
+}
+
 main section {
   max-width: 800px;
   width: 100%;
