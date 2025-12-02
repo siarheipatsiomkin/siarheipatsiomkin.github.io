@@ -1,73 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title> Siarhei’s Template </title>
-<link rel="stylesheet" href="index.css">
-  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css?v=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="images/calc.png">
+    <title>Student Developer Portfolio</title>
 </head>
+
 <body>
-<header class="navbar">
-  <div class="logo"> Siarhei’s Template </div>
-  <nav class="nav-menu">
-    <a href="#">Home</a>
-    <a href="#about">About</a>
-    <a href="classes.html">Classes</a>
-    <a href="#contact">Contact</a>
-  </nav>
-</header>
+    <header class="site-header">
+        <div class="wrapper header-inner">
+            <div class="site-title">
+                <a href="index.html">Student Dev Portfolio</a>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html" class="is-active">Home</a></li>
+                    <li><a href="../index.html">Labs</a></li>
+                    <li><a href="resources.html">Resources</a></li>
+                    <li><a href="aboutme.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-<main>
-  <section id="home">
-    <h1>Welcome to My Homepage ʚ♡ɞ</h1>
-    <p>This is my personal page where I share a little about who I am and what I love to do.</p>
-  </section>
+    <main class="wrapper">
+        <!-- HERO / BANNER -->
+        <section class="banner">
+            <div class="banner-text">
+                <p class="eyebrow">Web Dev in Progress</p>
+                <h1>Practice. Experiment. Improve.</h1>
+                <p class="lead">
+                    This site tracks my journey learning front-end web development.  
+                    You’ll find homework labs, experiments, and helpful links I use to get better.
+                </p>
+                <div class="banner-actions">
+                    <a class="btn" href="../index.html">Browse Class Labs</a>
+                    <a class="btn btn-outline" href="resources.html">View Learning Resources</a>
+                </div>
+            </div>
 
-  
-  <section id="about">
-    <h2>About Me </h2>
-    <p>My name is Siarhei Patsiomkin, and I was born in Belarus. I’m currently majoring in Computer Programming. 
-    I really enjoy learning about code—it’s both challenging and exciting! My goal is to become skilled enough 
-    to freely design and build beautiful, functional webpages someday.</p>
-  </section>
+            <div class="banner-media">
+                <figure class="feature-card">
+                    <img src="images/dinocoder.jpg" alt="Cartoon dinosaur typing at a laptop">
+                    <figcaption>Debugging one line at a time.</figcaption>
+                </figure>
+                <figure class="feature-card small">
+                    <img src="images/horsecoder.jpg" alt="Cartoon horse working on code">
+                    <figcaption>Even the horse ships features.</figcaption>
+                </figure>
+            </div>
+        </section>
 
-  <section id="contact">
-    <h2>Contact </h2>
-    <p>You can reach out to me anytime through my school or personal email:  spatsio6730@student.gwinnetttech.edu  siarhei.patsiomkin@gmail.com</p>
-  </section>
-</main>
+        <!-- INTRO SECTION -->
+        <section class="section">
+            <header class="section-header">
+                <h2>What You’ll Find Here</h2>
+                <p>
+                    This portfolio is a snapshot of what I’m learning right now: HTML structure, CSS layout,
+                    and the basics of responsive design. It’s a work-in-progress on purpose.
+                </p>
+            </header>
 
-<img 
-  src="https://www.techzine.eu/wp-content/uploads/2025/01/shutterstock_2425426569-768x430.jpg"
-  alt="Decorative tech image"
-  class="side-image">
-  
- <footer>
-    <div class="footer-container">
-      <div class="footer-col">
-        <h4>Menu</h4>
-        <a href="#about">About</a><br>
-        <a href="#contact">Contact</a>
-      </div>
-      <div class="footer-col">
-        <h4>Projects</h4>
-        <a href="classes.html">My Work</a>
-      </div>
-      <div class="footer-col">
-        <h4>Resources</h4>
-        <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/" target="_blank">Responsive Web Design</a>
-      </div>
-      <div class="footer-col social_icon">
-        <h4>Follow Me</h4>
-        <span>
-          <a href="#"><i class="fab fa-twitter"></i></a>
-          <a href="#"><i class="fab fa-github"></i></a>
-          <a href="#"><i class="fab fa-linkedin"></i></a>
-        </span>
-      </div>
-    </div>
-  </footer>
+            <div class="info-grid">
+                <article class="info-card">
+                    <h3>Course Labs</h3>
+                    <p>Every chapter lab is linked from the Labs page so you can see how my work changes over time.</p>
+                </article>
+                <article class="info-card">
+                    <h3>Study Resources</h3>
+                    <p>A short list of videos and documentation that I actually use when I get stuck on a problem.</p>
+                </article>
+                <article class="info-card">
+                    <h3>About & Contact</h3>
+                    <p>Learn what I’m studying, what I’m interested in, and how to get in touch with me.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- AUDIO DEMO -->
+        <section class="section">
+            <header class="section-header">
+                <h2>Audio Demo</h2>
+                <p>This little sound clip is here just to show the HTML <code>&lt;audio&gt;</code> element in action.</p>
+            </header>
+
+            <div class="audio-panel">
+                <audio controls>
+                    <source src="audio/Bloop.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+                <p class="audio-caption">
+                    Rather than using copyrighted music, this short bloop keeps the demo simple and safe.
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="wrapper footer-inner">
+            <p>&copy; 2025 Student Developer Portfolio.</p>
+            <p>Email: <a href="mailto:student@example.com">student@example.com</a></p>
+            <p>Phone: <a href="tel:+10000000000">+1 (000) 000-0000</a></p>
+            <p><a href="sitemap.html">Site Map</a></p>
+        </div>
+    </footer>
 </body>
 </html>
