@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css?v=1">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" type="image/png" href="images/calc.png">
+    <title>Contact the Student Developer</title>
+</head>
+
+<body>
+<header class="site-header">
+    <div class="wrapper header-inner">
+        <div class="site-title">
+            <a href="index.html">Student Dev Portfolio</a>
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="../index.html">Labs</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="aboutme.html">About</a></li>
+                <li><a href="contact.html" class="is-active">Contact</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main class="wrapper">
+    <section class="section">
+        <header class="section-header">
+            <h1>Get in Touch</h1>
+            <p class="intro">
+                Have feedback on this site, questions about the labs, or ideas for a project?
+                Use the form below to send me a message.
+            </p>
+        </header>
+
+        <form action="#" method="post" class="contact-form">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email address</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="age">Age (optional)</label>
+            <input type="number" id="age" name="age" min="0">
+
+            <label for="reason">What are you contacting me about?</label>
+            <select id="reason" name="reason">
+                <option value="question">Course or lab question</option>
+                <option value="project">Project idea / collaboration</option>
+                <option value="feedback">Feedback on this site</option>
+                <option value="other">Something else</option>
+            </select>
+
+            <p class="radio-label">How did you arrive at this portfolio?</p>
+            <label>
+                <input type="radio" name="found" value="search"> Search engine
+            </label><br>
+            <label>
+                <input type="radio" name="found" value="class"> Class link / LMS
+            </label><br>
+            <label>
+                <input type="radio" name="found" value="friend"> Friend or classmate
+            </label><br>
+            <label>
+                <input type="radio" name="found" value="other"> Other
+            </label>
+
+            <div class="checkbox-row">
+                <label>
+                    <input type="checkbox" name="updates">
+                    Email me occasionally about major site updates.
+                </label>
+            </div>
+
+            <label for="message">Your message</label>
+            <textarea id="message" name="message" rows="5"></textarea>
+
+            <input type="submit" value="Send Message">
+        </form>
+    </section>
+
+    <section class="section">
+        <h2>Class Location</h2>
+        <p>
+            This portfolio was created as part of a college web development course.
+            The map below shows the campus where the class is taught.
+        </p>
+        <div class="map-frame">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3314.7531793512717!2d-84.00159922491015!3d33.9780974731746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f5a4cecf97c93d%3A0xb0cb4e8897e5d142!2sGeorgia%20Gwinnett%20College!5e0!3m2!1sen!2sus!4v1708899990000!5m2!1sen!2sus"
+                width="600"
+                height="450"
+                style="border:0; max-width:100%;"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+    </section>
+</main>
+
+<footer class="site-footer">
+    <div class="wrapper footer-inner">
+        <p>&copy; 2025 Student Developer Portfolio.</p>
+        <p>Email: <a href="mailto:student@example.com">student@example.com</a></p>
+        <p>Phone: <a href="tel:+10000000000">+1 (000) 000-0000</a></p>
+        <p><a href="sitemap.html">Site Map</a></p>
+    </div>
+</footer>
+
+</body>
+</html>
